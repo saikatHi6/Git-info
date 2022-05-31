@@ -1,0 +1,25 @@
+1. Delete all dbs and create new dbs
+2. Delete mail queue
+3. Run scheduler 
+4. Clean isCsi
+5. Health check for all the DBS
+
+
+
+
+===========GIT=============
+1.Git is a persistent map
+2. A stupid content tracker
+3. A reviosion control system
+4. A branch is a referance to a commit
+5. HEAD is just referance to a branch(pointer to a pointer)
+6. Git care about only object in the database not working directory. Object of a database is immutable and persistent
+7. Git use garbage collector mechanisam to clean commits which not being tracked by any HEAD/Branches
+8. Git switch/checkout can be use to change the branch. But checkout need to be use for commit(checkout commitHash)
+9. Rebase Vs Merge -> Merge use for manitaining the commit history where rebase is refactoring the commit history(make it singale line)
+10. git cat-file -t <commitHash> (show me the type of this object)
+11. git cat-file -p <commitHash> (show me the content)
+12. Branch vs Tag --> Branch can move to other commit but tag not.Tag is fixed.
+13. git show-ref main (to show commit referance for local and remote branch)
+14. git fetch and merge then push
+
